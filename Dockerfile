@@ -1,6 +1,9 @@
 FROM archlinux
 
-RUN pacman -Sy --noconfirm && pacman -S wget git vim python --noconfirm
+RUN pacman -Sy --noconfirm && pacman -S wget git vim which --noconfirm
+
+# Exemplo de Linguagem
+RUN pacman -S python --noconfirm
 
 RUN useradd -m -u 1000 -U dev
 
