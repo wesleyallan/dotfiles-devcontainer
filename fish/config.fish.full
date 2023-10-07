@@ -15,3 +15,6 @@ alias fgrep='fgrep --color=auto'
 
 # Starship
 starship init fish | source
+
+# ASDF
+source ~/.asdf/asdf.fish
